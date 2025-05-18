@@ -7,3 +7,5 @@ var createCounter = function(n) {
         return n++;
     };
 };
+
+// Link: https://leetcode.com/problems/counter/submissions/1637598751
