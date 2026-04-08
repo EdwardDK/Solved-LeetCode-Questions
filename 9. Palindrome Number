@@ -1,0 +1,15 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        
+        reversed_num = abs(int(str(abs(x))[::-1]))
+
+        if x==reversed_num:
+            return True
+        else:
+            return False
+
+// link: https://leetcode.com/problems/palindrome-number/submissions/1973008989
